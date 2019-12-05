@@ -58,7 +58,7 @@ return array(
     'servers' => array(
         'db_X' => array(
             'host'      => 'localhost',             //数据库域名
-            'name'      => 'phalapi',               //数据库名字
+            'name'      => 'skymovie',               //数据库名字
             'user'      => 'root',                  //数据库用户名
             'password'  => 'abc5341842',	                    //数据库密码
             'port'      => '3306',                  //数据库端口

@@ -12,12 +12,12 @@ return array(
      * DB数据库服务器集群
      */
     'servers' => array(
-        'db_movie' => array(                       //服务器标记
+        'skymovie' => array(                       //服务器标记
             'type'      => 'mysql',                 //数据库类型，暂时只支持：mysql, sqlserver
             'host'      => '127.0.0.1',             //数据库域名
-            'name'      => 'movie',               //数据库名字
+            'name'      => 'skymovie',               //数据库名字
             'user'      => 'root',                  //数据库用户名
-            'password'  => 'root',	                    //数据库密码
+            'password'  => 'abc5341842',	                    //数据库密码
             'port'      => 3306,                    //数据库端口
             'charset'   => 'UTF8',                  //数据库字符集
         ),
@@ -32,7 +32,7 @@ return array(
             'prefix' => '',
             'key' => 'id',
             'map' => array(
-                array('db' => 'db_movie'),
+                array('db' => 'skymovie'),
             ),
         ),
 
